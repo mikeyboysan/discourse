@@ -723,6 +723,7 @@ en:
         bio_raw: "About Me"
       user:
         ip_address: ""
+        password: "Password"
     errors:
       <<: *errors
       models:
@@ -1250,6 +1251,7 @@ en:
   flags:
     errors:
       already_handled: "Flag was already handled"
+      wrong_move: "Flag cannot be moved"
   reports:
     default:
       labels:
